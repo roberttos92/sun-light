@@ -5,11 +5,11 @@
 	<title>Luz Sollar</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<link rel="stylesheet" href="styles/main.css" type="text/css"/>
-	<link rel="stylesheet" href="styles/responsiveslides.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="lib/responsiveslides.min.js"></script>
+	<link rel="stylesheet" href="styles/main.css" type="text/css"/>
+	
+	<link rel="stylesheet" href="styles/responsiveslides.css">
+	<script src="js/responsiveslides.min.js"></script>
 	
 	<script>
     // You can also use "$(window).load(function() {"
@@ -68,70 +68,31 @@
 		
 		<!-- conteúdo -->
 		<div class="content">
-			<div class="banners">
-				<!-- Slideshow 1 -->
+			<div class="bannerPrincipal">
 				<ul class="rslides" id="slider1">
 				  <li><img src="img/banners/01.png" alt=""></li>
 				  <li><img src="img/banners/02.png" alt=""></li>
 				</ul>
 			</div>
-			<article class="topContent">
-				<header>
-					<h2>Primeiro Post</h2>
-				</header>
-				<footer>
-					<p class="postInfo">Post criado em 19/08/2013</p>
-				</footer>
-				<content>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu venenatis purus. 
-					Etiam est erat, sodales nec bibendum pretium, iaculis ut velit. Etiam venenatis eu purus nec adipiscing. 
-					Cras tristique ultrices odio, non imperdiet turpis placerat at. Mauris pellentesque erat ac est ultrices egestas.
-					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
-					Sed sodales ullamcorper nisi.
-					</p>
-				</content>
-			</article>
 			
-			<article class="topContent">
-				<header>
-					<h2>Segundo Post</h2>
-				</header>
-				<footer>
-					<p class="postInfo">Post criado por: GanjaDevTeam</p>
-				</footer>
-				<content>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu venenatis purus. 
-					Etiam est erat, sodales nec bibendum pretium, iaculis ut velit. Etiam venenatis eu purus nec adipiscing. 
-					Cras tristique ultrices odio, non imperdiet turpis placerat at. Mauris pellentesque erat ac est ultrices egestas.
-					</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
-					Sed sodales ullamcorper nisi.
-					</p>
-				</content>
-			</article>
+			<div class="features">
+				<div class="feature_left">
+					<img src="img/banners/feature1.jpeg" class="featureImage"/>
+					<h3>Catálogo</h3>
+					<p>Sed consectetur, orci a porta imperdiet, felis ante sodales nisi, vel eleifend orci turpis id lorem. Mauris elit magna, tincidunt ut malesuada non, interdum vel leo. Morbi lobortis feugiat eros et eleifend.</p>
+				</div>
+				<div class="feature_mid">
+					<img src="img/banners/feature1.jpeg" class="featureImage"/>
+					<h3>Onde encontrar</h3>
+					<p>Proin nisl magna, tincidunt at laoreet at, laoreet ac velit. Phasellus molestie massa sapien, nec sagittis augue egestas eget. Integer eget turpis tempor, fermentum urna tempor, posuere elit. Phasellus non facilisis enim, et porttitor nulla. Sed odio purus, auctor vitae orci sit amet, fermentum elementum arcu. </p>
+				</div>
+				<div class="feature_right">
+					<img src="img/banners/feature1.jpeg" class="featureImage"/>
+					<h3>Twitter</h3>
+					<p>blablabla</p>
+				</div>
+			</div>
 		</div>
-		
-		<!-- sidebar -->
-		<aside class="topSidebar">
-			<article>
-				<h2>Sidebar</h2>
-				<img src="img/banners/sidebanner.jpg" alt="sidebanner" />
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
-				</p>
-			</article>
-			
-			<article>
-				<h2>Sidebar</h2>
-				<img src="img/banners/sidebanner.jpg" alt="sidebanner" />
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
-				</p>
-			</article>
-		</aside>
 	</div>
 	
 	<footer class="mainFooter">

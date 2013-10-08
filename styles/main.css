@@ -163,42 +163,46 @@ h2 {
 /* conteúdo */
 
 .content {
-	width: 70%;
+	width: 100%;
 	float: left;
 }
 
-.topContent {
-	background-color: #FFF;
-	padding: 0 5% 3% 5%;
-	margin-top: 2%;
-}
-
-.postInfo {
-	font-style: italic;
-	color: #999;
-	font-size: 85%;
-}
-
-.topSidebar {
-	width: 22.5%;
-	float: left;
-	background-color: #FFF;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	margin-left: 1.5%;
-	padding: 0 3% 2% 3%;
-	
-	
-}
-
-.topSidebar img{
+.bannerPrincipal {
 	width: 100%;
 	height: auto;
-	border: 1px solid grey;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+}
+.banner {
+		width: 100%;
+		height: auto;
+	}
+
+
+.features {
+	text-align: justify;
+}
+
+.feature_left {
+	width: 23%;
+	height: auto;
+	float: left;
+	padding: 3% 5%;
+}
+.feature_mid {
+	width: 23%;
+	height: auto;
+	float: left;
+	padding: 3% 5%;
+}
+.feature_right {
+	width: 23%;
+	height: auto;
+	float: left;
+	padding: 3% 5%;
+}
+
+.featureImage {
+	width: 100%;
+	height: auto;
 }
 
 /* footer principal */
@@ -283,8 +287,25 @@ h2 {
 	}
 	
 	.content {
-		width: 90%;
+		width: 100%;
 		float: left;
+	}
+	
+	.bannerPrincipal {
+		display: none;
+	}
+	
+	.feature_left {
+		width: 84%;
+		padding: 10% 8%;
+	}
+	.feature_mid {
+		width: 84%;
+		padding: 10% 8%;
+	}
+	.feature_right {
+		width: 84%;
+		padding: 10% 8%;
 	}
 	
 	.banners {
