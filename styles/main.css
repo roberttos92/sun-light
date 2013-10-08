@@ -1,0 +1,303 @@
+body {
+	background-color: #EDEDED;
+	color: #000305;
+	background-image: url(../img/bg.png);
+	background-repeat: repeat-x;
+	font-size: 87.5%; /* base font size: 14px*/
+	font-family: Arial, "Lucida Sans Unicode";
+	line-height: 1.5;
+	text-align: left;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #CF5C3F;
+}
+
+/* top */
+
+.top {
+	width: 100%;
+	height: 35px;
+	background-color: black;
+}
+
+.topContainer {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+}
+
+.top nav ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	
+	
+}
+
+.top nav ul li {
+	float: left;
+	display: inline;
+	margin: 0 auto;
+	
+	
+}
+
+.top nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 15px;
+	height: 25px;
+	
+}
+.top nav ul li a:link, .top nav ul li a:visited {
+	color: #FFC100;
+}
+.top nav ul li a:hover, .top nav ul li a:active{
+	background-color: #FFC100;
+	color: #FFF;
+}
+
+/* logo */
+
+.logoBar {
+	width: 100%;
+}
+
+.logoBarContainer {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+}
+
+.logoBar img {
+	width: 25%;
+	height: auto;
+	margin: 2% 0;
+}
+
+/* menu */
+
+.menuBar {
+	width: 100%;
+}
+
+.menuBarContainer {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+}
+
+.menuBar nav {
+	background-color: #A5A5A5;
+	background-image: url(../img/bg_menu.gif);
+	height: 40px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+
+.menuBar nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+
+.menuBar ul li {
+	float: left;
+	display: inline;
+}
+
+.menuBar nav a:link, .menuBar nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+	text-decoration: none;
+}
+
+.menuBar nav a:hover, .menuBar nav a:active, 
+.menuBar nav .active a:link, .menuBar nav .active a:visited {
+	background-color: #FFC100;
+	text-shadow: none;
+}
+
+.menuBar nav ul li a {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.yellowBar {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #FFC100;
+	height: 8px;
+}
+
+/* container principal */
+.mainContainer {
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+	background-color: #FFF;
+	overflow: auto;
+	border: 1px solid lightgrey;
+	border-top: none;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/* conteúdo */
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topContent {
+	background-color: #FFF;
+	padding: 0 5% 3% 5%;
+	margin-top: 2%;
+}
+
+.postInfo {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+.topSidebar {
+	width: 22.5%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 1.5%;
+	padding: 0 3% 2% 3%;
+	
+	
+}
+
+.topSidebar img{
+	width: 100%;
+	height: auto;
+	border: 1px solid grey;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* footer principal */
+.mainFooter {
+	width: 80%;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #A7A7A7;
+	margin: 0 auto;
+	
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px;
+	color: #FFF;
+	padding: 10px 0;
+}
+
+/* ajuste responsivo */
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	
+	.topContainer {
+		margin: 0 auto;
+		width: 90%;
+		clear: both;
+	}
+	
+	.top nav ul li a {
+		padding: 5px 10px;
+	}
+	
+	.logoBarContainer {
+		width: 90%;
+	}
+
+	.logoBar img {
+		width: 100%;
+	}
+	
+	.menuBarContainer {
+		width: 90%;
+	}
+	
+	.menuBar nav {
+		height: 160px;
+		background-image: none;
+	}
+	
+	.menuBar nav ul {
+		padding-left: 0;
+	}
+	
+	
+	.menuBar nav ul li{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.menuBar nav a:link, .mainHeader a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+	
+	.menuBar nav ul li a {
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+	
+	.yellowBar {
+		width: 90%;
+	}
+	
+	.mainContainer {
+		width: 90%;
+	}
+	
+	.content {
+		width: 90%;
+		float: left;
+	}
+	
+	.banners {
+		display: none;
+	}
+	
+	.topSidebar {
+		width: 90%;
+		
+	}
+	
+	.mainFooter {
+		width: 90%;
+	}
+	
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+	<title>Luz Sollar</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="styles/main.css" type="text/css"/>
+	<link rel="stylesheet" href="styles/responsiveslides.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="lib/responsiveslides.min.js"></script>
+	
+	<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        speed: 1500,
+        auto: true,
+		namespace: "callbacks",
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+	<!-- top, barra preta -->
+	<div class="top">
+		<div class="topContainer">
+			<nav>
+				<ul>
+					<li><a href="#">Institucional</a></li>
+					<li><a href="#">História</a></li>
+					<li><a href="#">Trabalhe Conosco</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	
+	<!-- barra da logo -->
+	<div class="logoBar">
+		<div class="logoBarContainer">
+			<img src="img/logo.png"/>
+		</div>
+	</div>
+	
+	<!-- menu principal -->
+	<div class="menuBar">
+		<div class="menuBarContainer">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div class="yellowBar"></div>
+	
+	<!-- container principal -->
+	<div class="mainContainer">
+		
+		<!-- conteúdo -->
+		<div class="content">
+			<div class="banners">
+				<!-- Slideshow 1 -->
+				<ul class="rslides" id="slider1">
+				  <li><img src="img/banners/01.png" alt=""></li>
+				  <li><img src="img/banners/02.png" alt=""></li>
+				</ul>
+			</div>
+			<article class="topContent">
+				<header>
+					<h2>Primeiro Post</h2>
+				</header>
+				<footer>
+					<p class="postInfo">Post criado em 19/08/2013</p>
+				</footer>
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu venenatis purus. 
+					Etiam est erat, sodales nec bibendum pretium, iaculis ut velit. Etiam venenatis eu purus nec adipiscing. 
+					Cras tristique ultrices odio, non imperdiet turpis placerat at. Mauris pellentesque erat ac est ultrices egestas.
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
+					Sed sodales ullamcorper nisi.
+					</p>
+				</content>
+			</article>
+			
+			<article class="topContent">
+				<header>
+					<h2>Segundo Post</h2>
+				</header>
+				<footer>
+					<p class="postInfo">Post criado por: GanjaDevTeam</p>
+				</footer>
+				<content>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu venenatis purus. 
+					Etiam est erat, sodales nec bibendum pretium, iaculis ut velit. Etiam venenatis eu purus nec adipiscing. 
+					Cras tristique ultrices odio, non imperdiet turpis placerat at. Mauris pellentesque erat ac est ultrices egestas.
+					</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
+					Sed sodales ullamcorper nisi.
+					</p>
+				</content>
+			</article>
+		</div>
+		
+		<!-- sidebar -->
+		<aside class="topSidebar">
+			<article>
+				<h2>Sidebar</h2>
+				<img src="img/banners/sidebanner.jpg" alt="sidebanner" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
+				</p>
+			</article>
+			
+			<article>
+				<h2>Sidebar</h2>
+				<img src="img/banners/sidebanner.jpg" alt="sidebanner" />
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Sed velit lectus, rhoncus vehicula commodo a, tempus non purus. Morbi eu tempus neque, sed elementum lacus. 
+				</p>
+			</article>
+		</aside>
+	</div>
+	
+	<footer class="mainFooter">
+		<p>&copy; GanjaDevTeam</p>
+	</footer>
+	
+</body>
+
+</html>
